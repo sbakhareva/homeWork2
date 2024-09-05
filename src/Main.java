@@ -12,10 +12,10 @@ public class Main {
 
         dog = dog + 4;
         cat = cat + 4;
-        var Paper = paper + 4;
+        paper = paper + 4;
         System.out.println(dog);
         System.out.println(cat);
-        System.out.println(Paper);
+        System.out.println(paper);
 
         dog = dog - 3.5;
         cat = cat - 1.6;
