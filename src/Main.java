@@ -10,19 +10,19 @@ public class Main {
         System.out.println(cat);
         System.out.println(paper);
 
-        var Dog = dog + 4;
-        var Cat = cat + 4;
+        dog = dog + 4;
+        cat = cat + 4;
         var Paper = paper + 4;
-        System.out.println(Dog);
-        System.out.println(Cat);
+        System.out.println(dog);
+        System.out.println(cat);
         System.out.println(Paper);
 
-        var DOG = dog - 3.5;
-        var CAT = cat - 1.6;
-        var PAPER = paper - 7639;
-        System.out.println(DOG);
-        System.out.println(CAT);
-        System.out.println(PAPER);
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
 
         var friend = 19;
         System.out.println(friend);
@@ -47,9 +47,8 @@ public class Main {
         var weightDifference = boxer2 - boxer1;
         System.out.println(weightDifference);
 
-        var Boxer1 = 78.2;
-        var Boxer2 = 82.7;
-        var weightDiff = Boxer2 % Boxer1;
+
+        var weightDiff = boxer2 % boxer1;
         System.out.println(weightDiff);
 
         var workHours = 640;
